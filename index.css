@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap');
+* {
+    background-color: #1d1d1d;
+    color: white;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+body {
+    display: flex;
+}
+/* nav bar */
+.asideWrapper {
+    border: 2px solid red;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+
+    
+}
+aside {
+    height: 100vh;
+    border: 2px solid orange;
+    box-sizing: border-box;
+}
+.navLinks a{
+    font-size: 2rem;
+    text-decoration: none;
+}
+.navLinks {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid red;
+    height: 50%;
+    width: inherit;
+    flex-wrap: wrap;
+}
+
+.icons {
+    display: flex;
+    list-style: none;
+    font-size: 2rem;
+
+    width: inherit;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    
+}
+/* main body */
+.headBody {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: 2px solid red;
+
+}
+
+.openingHead {
+    margin-left: 3%;
+}
+
+.closingHead {
+    margin-left: 3%;
+}
+.font {
+    font-family: 'La Belle Aurore', cursive;
+    font-size: 1.6rem;
+}
+.title {
+    display: flex;
+    margin: 10% 8%;
+    align-items: center;
+}
+.title h1 {
+    font-size: 2.4rem;
+}
+.title span {
+    margin-top: 1%;
+}
+.openingTitle {
+    margin-right: 1%;
+}
+.closingTitle {
+    margin-left: 1%;
+}
+
+.bodyTag {
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 3%;
+}
+.bodyTag p {
+    font-size: 1.6rem;
+    margin-left: 6%;
+}
+.openingP {
+    margin-top: 5%;
+    margin-left: 4%;
+}
+.closingP {
+    margin-left: 4%;
+    margin-bottom: 5%;
+}
+.fa {
+    margin-left: 10px;
+    margin-right: 10px;
+}
