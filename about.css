@@ -1,46 +1,51 @@
 @import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap');
+
 * {
     background-color: #252525;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    
-    
 }
 body {
     display: flex;
+
 }
+
 /* nav bar */
 .asideWrapper {
-    height: 100%;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
     flex-wrap: wrap;
     background-color: #444444;
+    
 }
+
 aside {
     height: 100vh;
-    box-sizing: border-box;  
 }
-.navLinks a{
+
+.navLinks a {
     font-size: 2rem;
     text-decoration: none;
     background-color: #444444;
     border-bottom: 1px solid rgba(255, 255, 255, .25);
 }
+
 .navLinks {
     display: flex;
     justify-content: space-around;
     flex-direction: column;
     align-items: center;
-    height: 50%;
+    height: 40%;
     width: inherit;
     flex-wrap: wrap;
     background-color: #444444;
 }
-.navFont a{
+
+.navFont a {
     color: white;
 }
 
@@ -55,7 +60,8 @@ aside {
     justify-content: center;
     background-color: #444444;
 }
-.icons a{
+
+.icons a {
     background-color: #444444;
     color: white;
 }
@@ -72,8 +78,6 @@ aside {
     width: 100%;
     flex-direction: column;
     justify-content: space-evenly;
-
-
 }
 
 .openingHead {
@@ -83,49 +87,78 @@ aside {
 .closingHead {
     margin-left: 3%;
 }
+
 .font {
     font-family: 'La Belle Aurore', cursive;
     font-size: 1.6rem;
     color: aqua;
 }
+
 .classColor {
-    color:orange
+    color: orange
 }
+/* this is the title on the page not h1 */
 .title {
     display: flex;
-    margin: 5% 5%;
+    margin: 4% 0 4% 6%;
     align-items: center;
 }
+
 .title h1 {
-    font-size: 2.4rem;
-    color: white;
+    font-size: 2.8rem;
+
 }
+
 .title span {
     margin-top: 1%;
 }
+
 .openingTitle {
     margin-right: 1%;
 }
+
 .closingTitle {
     margin-left: 1%;
 }
 
 .bodyTag {
-    margin-top: 2%;
     display: flex;
     flex-direction: column;
     margin-left: 3%;
 }
+.openingh1 {
+    margin-left: 4%;
+}
+.closingh1 {
+    margin-left: 4%;
+}
+h2 {
+  margin-left: 6%;
+  font-size: 2.3rem;
+}
+
 .bodyTag p {
     font-size: 1.6rem;
     margin-left: 6%;
-    color: white;
 }
+
 .openingP {
-    margin-top: 5%;
+    margin-top: 2%;
     margin-left: 4%;
 }
+
 .closingP {
     margin-left: 4%;
     margin-bottom: 5%;
+}
+.whiteText {
+    color: white;
+}
+/* footer */
+footer {
+    display: flex;
+    color: white;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 5%;
 }
