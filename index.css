@@ -97,7 +97,7 @@ aside {
     align-items: center;
 }
 .title h1 {
-    font-size: 2.4rem;
+    font-size: 2.8rem;
     color: white;
 }
 .title span {
@@ -128,4 +128,88 @@ aside {
 .closingP {
     margin-left: 4%;
     margin-bottom: 5%;
+}
+/* footer */
+footer {
+    display: flex;
+    color: white;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 7%;
+}
+
+@media screen and (max-width: 480px) {
+    header {
+        position: fixed;
+    }
+
+    .navLinks a {
+        font-size: 1.2rem;
+    }
+
+    .asideWrapper {
+        width: min-content;
+    }
+
+    section {
+        padding-left: 22%;
+    }
+
+    .font {
+        font-size: 1rem
+    }
+
+    .title h1 {
+        font-size: 1.4rem;
+    }
+    .bodyTag p {
+        font-size: 1rem;
+    }
+    .title {
+        margin: 0 0 0 8%
+    }
+
+    body {
+        flex-direction: column;
+    }
+
+    footer {
+        margin-left: 80%;
+        font-size: .6rem;
+        width: 12%;
+
+    }
+
+}
+@media screen and (max-width: 1024px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    article {
+        width: 37%;
+    }
+
+    article p {
+        font-size: 1.2rem;
+    }
+
+    h2 {
+        font-size: 1.6rem;
+    }
+
+    footer {
+        margin-left: 20%;
+        width: 20%;
+
+    }
+
+}
+@media screen and (max-width: 480px) {
+    footer {
+        margin-left: 80%;
+        font-size: .6rem;
+
+    }
+
 }

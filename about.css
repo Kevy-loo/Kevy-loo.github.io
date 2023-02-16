@@ -162,3 +162,124 @@ footer {
     justify-content: flex-end;
     width: 5%;
 }
+@media screen and (max-width: 1024px) {
+    header {
+        position: fixed;
+    }
+
+    .headBody {
+        padding-left: 24%;
+    }
+
+    .title h1 {
+        font-size: 2rem;
+    }
+
+    article {
+        width: 37%;
+    }
+
+    h2 {
+        font-size: 1.6rem;
+        margin-left: 30%;
+    }
+
+    .bodyTag p {
+        font-size: 1.2rem;
+        margin-left: 30%;
+    }
+
+    .openingHead {
+        margin-left: 10%;
+    }
+
+    .closingHead {
+        margin-left: 10%;
+    }
+
+    .title {
+        margin-left: 20%;
+    }
+
+    .openingBody {
+        margin-left: 10%;
+    }
+
+    .closingBody {
+        margin-left: 10%;
+    }
+
+    .openingh1 {
+        margin-left: 20%;
+    }
+
+    .closingh1 {
+        margin-left: 20%;
+    }
+
+    .openingP {
+        margin-left: 20%;
+    }
+
+    .closingP {
+        margin-left: 20%;
+    }
+
+    footer {
+        margin-left: 20%;
+        width: 20%;
+    }
+}
+@media screen and (max-width: 480px) {
+    header {
+        position: fixed;
+    }
+    .bodyTag p {
+        font-size: .8rem;
+    }
+
+    .navLinks a {
+        font-size: 1.2rem;
+    }
+
+    .asideWrapper {
+        width: min-content;
+    }
+
+    section {
+        padding-left: 22%;
+    }
+
+    .font {
+        font-size: 1rem
+    }
+
+    .title h1 {
+        font-size: 1.4rem;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    .headBody {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .title {
+        margin: 0 0 0 8%
+    }
+
+    body {
+        flex-direction: column;
+    }
+
+    footer {
+        width: 20%;
+        margin-left: 80%;
+        font-size: .6rem;
+
+    }
+
+}
